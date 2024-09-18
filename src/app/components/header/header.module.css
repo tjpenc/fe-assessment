@@ -1,0 +1,18 @@
+.nav-bar {
+    flex: 1;
+}
+
+.alerts-header {
+    flex: 1;
+}
+
+.search-header {
+    flex:  3;
+}
+
+.flex-center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

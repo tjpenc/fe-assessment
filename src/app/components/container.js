@@ -1,11 +1,16 @@
 import TermFilter from "./term-list/term-filter";
 import TermList from "./term-list/term-list";
+import styles from "./container.module.css";
 
 const Container = () => {
     return (
         <>
-            <TermFilter />
-            <TermList />
+            <div className={`${styles["term-filter"]} ${styles["flex-center"]}`}>
+                <TermFilter />
+            </div>
+            <div className={`${styles["term-list"]} ${styles["flex-center"]}`}>
+                <TermList />
+            </div>
         </>
     )
   };
