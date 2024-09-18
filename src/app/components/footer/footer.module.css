@@ -1,0 +1,14 @@
+.main-footer {
+    flex: 4;
+}
+
+.sub-footer {
+    flex: 1;
+}
+
+.flex-center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
