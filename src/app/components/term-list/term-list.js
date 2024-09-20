@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "./term-list.module.css"
 import TermFilter from "./term-filter";
+import nextConfig from "../../../../next.config";
 
 const TermList = () => {
   const [termList, setTermList] = useState([]);
@@ -10,7 +11,7 @@ const TermList = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('/data/data.json');
+      const response = await fetch(`${nextConfig.basepath}/data/data.json`);
       const json = await response.json();
       let letArray = [];
       json.termList.forEach((term, index) => {
