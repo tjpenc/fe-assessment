@@ -8,14 +8,14 @@ const AlertsHeader = () => {
           <div className={styles["wait-times-container"]}>
             <Image
                 src={`${nextConfig.basepath}/icons/clock.png`}
-                alt="alert icon"
+                alt="Clock icon"
                 width={15}
                 height={15}
             />
             <span>View All ER Wait Times</span>
             <Image
                 src={`${nextConfig.basepath}/icons/dropdown.png`}
-                alt="alert icon"
+                alt="Dropdown icon"
                 width={10}
                 height={10}
             />
@@ -24,7 +24,7 @@ const AlertsHeader = () => {
             <button className={`${styles["btn-general"]} ${styles["appointment-button"]}`}>
                 <Image
                     src={`${nextConfig.basepath}/icons/calendar.png`}
-                    alt="alert icon"
+                    alt="Calendar icon"
                     width={10}
                     height={10}
                     className={styles["image-invert"]}
@@ -34,7 +34,7 @@ const AlertsHeader = () => {
             <button className={`${styles["btn-general"]} ${styles["alerts-button"]}`}>
                 <Image
                     src={`${nextConfig.basepath}/icons/alert.png`}
-                    alt="alert icon"
+                    alt="Alert icon"
                     width={20}
                     height={20}
                 />
