@@ -1,7 +1,14 @@
+import styles from "./nav-bar.module.css";
+
 const NavBar = () => {
     return (
         <>
-          <div>Nav Bar</div>
+          <div className={styles["logo-container"]}>
+
+          </div>
+          <div className={styles["links-container"]}>
+
+          </div>
         </>
     )
   };

@@ -5,9 +5,6 @@ import styles from "./container.module.css";
 const Container = () => {
     return (
         <>
-            <div className={`${styles["term-filter"]} ${styles["flex-center"]}`}>
-                <TermFilter />
-            </div>
             <div className={`${styles["term-list"]} ${styles["flex-center"]}`}>
                 <TermList />
             </div>
