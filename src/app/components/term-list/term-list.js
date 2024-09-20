@@ -30,8 +30,6 @@ const TermList = () => {
 
   let handleFilterClick = (letter) => {
     setFilteredLetterArray([letter]);
-    console.log(letterArray);
-    console.log(termList)
   }
 
   return (
