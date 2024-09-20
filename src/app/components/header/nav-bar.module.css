@@ -1,7 +1,20 @@
 .logo-container {
-    border: solid black 2px;
+    color: white;
+    flex: 1;
 }
 
 .links-container {
-    border: solid black 2px;
+    font-size: small;
+    flex: 4 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-container > a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-container > input {
+    width: 5%;
 }

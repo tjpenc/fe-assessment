@@ -11,11 +11,12 @@
 .search-header {
     flex:  3 0;
     background-color: rgb(36, 61, 122);
+    justify-content: space-around !important;
 }
 
 .flex-center {
     width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
 }

@@ -15,10 +15,10 @@
 }
 
 .header, .footer {
-  flex: 1 0 15%;
+  flex: 1 0 20%;
 }
 
 .container {
   flex: 3.5 70%;
-  max-height: 70%;
+  max-height: 60%;
 }
