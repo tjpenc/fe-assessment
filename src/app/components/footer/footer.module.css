@@ -1,9 +1,11 @@
 .main-footer {
-    flex: 4;
+    flex: 4 0;
+    background-color: rgb(255 255 255);
 }
 
 .sub-footer {
-    flex: 1;
+    flex: 1 0;
+    background-color: rgb(27 31 34);
 }
 
 .flex-center {

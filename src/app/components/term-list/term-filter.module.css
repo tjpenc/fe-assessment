@@ -1,0 +1,19 @@
+.filter-header {
+    font-size: large;
+}
+
+.letter-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.active-letter {
+    color: blue;
+    font-size: small;
+}
+
+.inactive-letter {
+    color: grey;
+    font-size: small;
+}
