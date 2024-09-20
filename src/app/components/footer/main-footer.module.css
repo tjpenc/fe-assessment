@@ -1,0 +1,50 @@
+.logo-container {
+    margin: 0 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+    
+}
+
+.address {
+    font-size: small;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-container {
+    margin: 0 5%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-container > p {
+    margin-bottom: 10px;
+}
+
+.about-container > a {
+    color: rgb(111 133 141);
+    font-size: small;
+}
+
+.socials-container {
+    margin: 0 5%;
+    height: 80%;
+}
+
+.socials-container > p {
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
