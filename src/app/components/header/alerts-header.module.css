@@ -5,6 +5,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    cursor: pointer;
 }
 
 .wait-times-container > span {
@@ -22,6 +23,7 @@
     margin-right: 10px;
     padding: 1px 5px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .appointment-button {
@@ -55,10 +57,7 @@
 }
 
 .alerts-counter {
-    background-color: white;
     width: 100%;
     color: red;
     font-weight: bold;
-    border-radius: 50%;
-    aspect-ratio: 1;
 }

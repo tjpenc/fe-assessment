@@ -14,7 +14,15 @@ const NavBar = () => {
             />
           </div>
           <div className={styles["links-container"]}>
-            <a href='#'>Home</a>
+            <a href='#'>
+              <Image
+                src={`${nextConfig.basepath}/icons/home.png`}
+                alt="Home icon"
+                width={20}
+                height={20}
+                className={styles["image-invert"]}
+              />
+            </a>
             <a href='#'>My Health Resources</a>
             <a href='#'>Specialties</a>
             <a href='#'>Locations</a>
@@ -25,7 +33,17 @@ const NavBar = () => {
             <a href='#'>Manage Your Account</a>
             <a href='#'>MyHealthONE</a>
             <a href='#'>...</a>
-            <input placeholder="Search"/>
+            <div className={styles["search-bar"]}>
+                <button className={styles["search-icon"]}>
+                  <Image
+                    src={`${nextConfig.basepath}/icons/search2.png`}
+                    alt="Search icon"
+                    width={10}
+                    height={10}
+                  />
+                </button>
+                <input placeholder="Search"/>
+              </div>
           </div>
         </>
     )
