@@ -1,16 +1,39 @@
 .search-container {
     display: flex;
     flex-direction: column;
+    width: 10%;
+    justify-content: center;
 }
 
 .find-care {
     color: white;
     font-size: 30px;
     margin-bottom: 10%;
+    white-space: nowrap;
 }
 
 .search-bar {
     display: flex;
+    width: fit-content;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.search-input {
+    flex: 1;
+}
+
+.search-input::placeholder {
+    text-align: center;
+}
+
+.search-icon {
+    width: 25%;
+    padding: 0 12px;
+}
+
+.search-icon :hover {
+    cursor: pointer;
 }
 
 .help-container {

@@ -1,10 +1,11 @@
 .nav-bar {
     flex: 1 0;
     background-color: rgb(25, 38, 66);
+    justify-content: space-between !important;
 }
 
 .alerts-header {
-    flex: 1 0;
+    flex: 1.2 0;
     background-color: rgb(255, 255, 255);
 }
 
