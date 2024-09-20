@@ -2,6 +2,13 @@
     flex: 1;
     margin-left: 2%;
     font-size: small;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.wait-times-container > span {
+    margin: 0 1%;
 }
 
 .alerts-container {
@@ -13,17 +20,45 @@
 .btn-general {
     font-size: 12px;
     margin-right: 10px;
-    padding: 5px;
+    padding: 1px 5px;
     border-radius: 3px;
 }
 
 .appointment-button {
     color: white;
+    font-size: 10px;
     border: solid black 2px;
     background-color: rgb(25, 38, 66);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+}
+
+.image-invert {
+    filter: invert(1);
+    margin-right: 5px;
 }
 
 .alerts-button {
     background-color: rgb(248 218 222);
+    width: fit-content;
     border: solid rgb(243, 204, 206) 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alerts-button > span {
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.alerts-counter {
+    background-color: white;
+    width: 100%;
+    color: red;
+    font-weight: bold;
+    border-radius: 50%;
+    aspect-ratio: 1;
 }

@@ -7,11 +7,11 @@
 }
 
 .logo {
-    
+    margin-bottom: 10px;
 }
 
 .address {
-    font-size: small;
+    font-size: 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -28,11 +28,12 @@
 
 .about-container > p {
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .about-container > a {
     color: rgb(111 133 141);
-    font-size: small;
+    font-size: 10px;
 }
 
 .socials-container {
@@ -42,9 +43,14 @@
 
 .socials-container > p {
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .socials {
     display: flex;
     justify-content: space-around;
+}
+
+.socials-logo {
+    margin: 0 5px;
 }

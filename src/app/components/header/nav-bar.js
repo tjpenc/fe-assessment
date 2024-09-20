@@ -1,10 +1,17 @@
+import nextConfig from "../../../../next.config";
 import styles from "./nav-bar.module.css";
+import Image from "next/image";
 
 const NavBar = () => {
     return (
         <>
           <div className={styles["logo-container"]}>
-            Logo
+            <Image
+              src={`${nextConfig.basepath}/images/HCA_Horizontal_White.png`}
+              alt="HCA Logo"
+              width={180}
+              height={15}
+            />
           </div>
           <div className={styles["links-container"]}>
             <a href='#'>Home</a>

@@ -1,7 +1,7 @@
 .copywright-container {
     color: rgb(111 133 141);
     font-size: 10px;
-    margin-right: 15%;
+    margin-right: 5%;
 }
 
 .copywright-container > a {
@@ -16,4 +16,8 @@
 .links-container > div > a {
     color: white;
     margin: 0 1px;
+}
+
+.links-row-2 {
+    margin-left: 5%;
 }

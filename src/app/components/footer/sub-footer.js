@@ -12,7 +12,7 @@ const SubFooter = () => {
                 <a href="#"> Privacy Policy</a> |
                 <a href="#"> Do Not Sell My Personal Information</a>
             </div>
-            <div>
+            <div className={styles["links-row-2"]}>
                 <a href="#">Social Media Policy</a> |
                 <a href="#"> Acceptable Use Policy</a> |
                 <a href="#"> HCA Nondiscrimination Notice</a> |
